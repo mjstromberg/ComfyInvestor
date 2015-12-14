@@ -2,8 +2,73 @@ body {
   padding-top: 50px;
 }
 
+.container {
+	margin: 0;
+}
+
 .jumbotron {
-	background: url(../images/bg.jpg) no-repeat;
+	margin: 0;
+	padding-left: 40px;
+}
+
+.jumbotron header{
+	/*background: url(../images/bg.jpg) no-repeat;*/
+	background-color: #95a9b0;
+}
+
+
+.jumbotron .container img {
+	width: 30%;
+}
+
+.research {
+	margin:0;
+	padding: 25px 40px;
+	background-color: #0c78a9;
+}
+
+.research h2 {
+	color: #fff;
+}
+
+.research p {
+	color: #fff;
+} 
+
+.research button {
+	margin-left: 20px;
+}
+
+
+.education {
+	margin:0;
+	padding: 25px 60px;
+	background-color: #fff;
+	width: 100%;
+}
+
+.container .education {
+	margin:0;
+}
+
+
+.blog {
+	margin:0;
+	padding: 25px 60px;
+	background-color: #95a9b0;
+	width: 100%;
+}
+
+.blog h2 {
+	color: #fff;
+}
+
+.blog p {
+	color: #fff;
+} 
+
+.blog button {
+	margin-left: 20px;
 }
 
 footer {

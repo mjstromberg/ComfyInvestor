@@ -19,6 +19,12 @@ body {
 
 .jumbotron .container img {
 	width: 30%;
+	transition: all 0.3s;
+}
+
+.jumbotron .container img:hover {
+	width: 30%;
+	transform: scale(0.33);
 }
 
 .research {
@@ -39,6 +45,10 @@ body {
 	margin-left: 20px;
 }
 
+.blog-post {
+	width: 950px;
+	margin-bottom: 40px;
+}
 
 .education {
 	margin:0;
@@ -61,6 +71,12 @@ body {
 
 .blog h2 {
 	color: #fff;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+.blog h3 {
+	color: #fff;
 }
 
 .blog p {
@@ -69,6 +85,17 @@ body {
 
 .blog button {
 	margin-left: 20px;
+}
+
+.blog-post img {
+	float:left;
+	max-height: 150px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.education h2 {
+	margin: 10px;
 }
 
 footer {

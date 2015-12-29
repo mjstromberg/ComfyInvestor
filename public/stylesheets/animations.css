@@ -1,0 +1,18 @@
+/*Global Animations*/
+
+@keyframes sizeIn {
+	from {
+		scale: 1;
+	}
+	to{
+		scale: 0.33;
+	}
+}
+
+
+
+/*Logo Animations*/
+
+.logo {
+	animation: sizeIn 2s;
+}

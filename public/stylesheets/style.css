@@ -6,30 +6,27 @@ body {
 	margin: 0;
 }
 
-.jumbotron {
+.header {
+	/*background: url(../images/bg.jpg) no-repeat;*/
+	background-color: #95a9b0;
 	margin: 0;
+	padding-top:10px;
+	padding-bottom:5px;
 	padding-left: 40px;
 }
 
-.jumbotron header{
-	/*background: url(../images/bg.jpg) no-repeat;*/
-	background-color: #95a9b0;
+.header h2 {
+	font-size: 20px;
 }
 
-
-.jumbotron .container img {
-	width: 30%;
-	transition: all 0.3s;
+.header p {
+	font-size: 12px;
 }
 
-.jumbotron .container img:hover {
-	width: 30%;
-	transform: scale(0.33);
-}
 
 .research {
 	margin:0;
-	padding: 25px 40px;
+	padding: 25px 20px 60px 40px;
 	background-color: #0c78a9;
 }
 
@@ -96,6 +93,16 @@ body {
 
 .education h2 {
 	margin: 10px;
+}
+
+.logo {
+	max-width: 135px;
+	float: left;
+	padding-right: 10px;
+}
+
+nav {
+	background: #95a9b0;
 }
 
 footer {

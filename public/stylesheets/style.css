@@ -96,9 +96,17 @@ body {
 }
 
 .logo {
-	max-width: 135px;
+	max-height:30px;
 	float: left;
 	padding-right: 10px;
+}
+
+.report-icon {
+	background: #fff;
+}
+
+.report-icon img {
+	max-height: 350px;
 }
 
 nav {

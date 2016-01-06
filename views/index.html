@@ -11,28 +11,32 @@
     <link rel="stylesheet" href="/stylesheets/animation.css">
   </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span></button>
-            <a href="#" class="navbar-brand">
-            <img class="logo" src="http://imgur.com/5jYrDkK.png" alt="ComfyInvestor Logo">comfyinvestor</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/research">research</a></li>
-            <li><a href="/education">education</a></li>
-            <li><a href="/blog">blog</a></li>
-          </ul>
-        </div>
-    </div>
-  </nav>
 
+    <div class='container'> 
+<!--  
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">
+                    <img class="logo" src="http://imgur.com/5jYrDkK.png" alt="ComfyInvestor Logo">
+                    comfyinvestor
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/research">research</a></li>
+                <li><a href="/education">education</a></li>
+                <li><a href="/blog">blog</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+-->
 
 <!-- Welcome Section -->    
 <!-- Add logo and welcome note to disappear on scroll (snaps to nav)
@@ -44,47 +48,74 @@
 
 <!-- Research section -->
 
-    <div>
-        <h2>research</h2>
-        <p>search a stock or group of stocks</p>
-        <button></button><button></button>
-    </div>
 
+        <div class='row well'>
+            <div class='col-md-6 text-center'>
+                <h2>research</h2>
+                <p>search a stock or group of stocks</p>
+                <form class='form-inline' role=form>
+                    <div class='form-group'>
+                        <input type="text" class="form-control" id="stock" placeholder="TSLA or TSLA, CMG">
+                        <button type='submit' class='btn btn-lg btn-primary'>search</button>
+                    </div>
+                </form>
+                <br><!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <p>or visit an existing portfolio:</p>
+                <button type='button' class='btn btn-lg btn-default'>my portfolio</button>
+            </div>
+            <div class='col-md-6 hidden-sm hidden-xs'><!-- Replace w/ smaller/better mobile image on xs devices (visible-* class) -->
+                <img src="http://i.imgur.com/v0y46BB.png">
+            </div>
+        </div>
 
 
 <!-- Education Section -->    
-
-    <div>
-        <h3>Guides</h3>
-        <p></p>
-    </div>
-    <div>
-        <h3>Glossary</h3>
-        <p></p>
-    </div>
-    <div>
-        <h3>Blog</h3>
-        <p>Stock analyses, </p>
-    </div>
-    
+        <div class='row text-center'>   
+            <div class='well well-lg col-md-3 col-sm-3 col-xs-4 col-xs-offset-1'>
+                <h2>guides</h2>
+                <p>get comfy and learn about a new or old topic</p>
+            </div>
+            <div class='well well-lg col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4 col-xs-offset-1'>
+                <h2>glossary</h2> <!-- fucking bomb definition pages (full page descriptions w/ images, etc. 200+ words min? -->
+                <p>brush up on lingo with this simple yet detailed dictionary</p>
+            </div>
+            <div class='well well-lg col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-3'>
+                <h2>blog</h2>
+                <p>explore research tool summaries, stock analyses, articles, and more</p>
+            </div>
+        </div>
 
 <!-- Blog Teaser Section -->  
-
-    <div>
-        <h3>How to Recognize a Cup with Handle Base</h3>
-        <p>One of the most popular</p>
-    </div>
-    <div>
-        <h3>More Like Wash Sale Doesn't Rule</h3>
-        <p>Did you know that you could pay a hefty penalty when you purchase a security that you've sold within the last 30 days. Learn how to avoid getting bit by this "archaine taxlaw." intended to prevent institutions and investors from selling their holdings for tax purposes. </p>
-    </div>
-    <div>
-        <h3></h3>
-        <p></p>
-    </div>
-
+        <div class='row'>
+            <h2>Recent Posts</h2>
+            <div>
+                <h3>How to Recognize a Cup with Handle Base</h3>
+                <div class='container'>
+                    <p>The cup with handle is one of the most common stock chart patterns. This guide covers in depth which key traits investors should look for in all cup with handles, as well as other traits that will help investors spot exceptional patterns.</p>
+                    <img class='hidden-sm hidden-xs' src="">
+                </div>
+            </div>
+            <div>
+                <h3>More Like Wash Sale Doesn't Rule</h3>
+                <div class='container'>
+                    <p>Did you know that you could pay a hefty penalty when you purchase a security that you've sold within the last 30 days. Avoid getting bit by this "archaine taxlaw" intended to prevent institutions and investors from selling their holdings for tax purposes.</p>
+                    <img class='hidden-sm hidden-xs' src="">
+                </div>
+            </div>
+            <div>
+                <h3>Market Cycles: How Do Industry Groups Exchange Leadership?</h3>
+                <div class='container'>
+                    <p>Industry groups will forever fight for leadership in the ever changing stock market. Understanding the factors that control this can help investors understand which industries are poised to lead or destined to crumble.</p>
+                    <img class='hidden-sm hidden-xs' src="">
+                </div>
+            </div>
+        </div>
 <!-- Footer Section -->  
+        <div class='row'>
+            <footer>
 
-
+            </footer>
+        </div>
+    </div>
 </body>
 

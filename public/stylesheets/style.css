@@ -83,10 +83,17 @@ body {
 		max-width: 266px;
 	}
 
+@media only screen and (min-width: 992px) {
+	.education .col-md-4 {
+		min-height: 300px;
+	}
+}
+
 
 @media only screen and (max-width: 992px) {
 	.education .col-md-4 {
 		max-width: 206px;
+		min-height: 300px;
 	}
 }
 

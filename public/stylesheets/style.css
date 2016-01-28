@@ -1,3 +1,12 @@
+/*Color Palette: 
+#28465C (40-70-92)
+#A6C8E1 (166-200-225)
+#60A7DC (96-167-220)
+#44525C (68-82-92)
+#4A80A9 (74-128-169);*/
+
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -79,10 +88,44 @@ body {
 	background-color: #efefef;
 }
 
-	.education .col-md-4 {
-		max-width: 266px;
-	}
 
+/*------------ Tablets & Desktop ------------*/
+@media only screen and (min-width: 992px) {
+	.education .col-sm-4 {width: 30%;}
+	.education .col-sm-offset-1 {margin-left: 5%;}
+	.education .first-edu {margin-left: 0px;}
+}
+
+/*------------ Tablets ------------*/
+@media only screen and (min-width: 768px) {
+	.education .col-sm-4 {width: 30%;}
+	.education .col-sm-offset-1 {margin-left: 5%;}
+	.education .first-edu {margin-left: 0px;}
+}
+
+@media only screen and (max-width: 768px) {
+	.footer {height: 360px;}
+	body {margin-bottom: 400px;}
+}
+
+/*------------ Mobile Phones ------------*/
+/*@media only screen and (min-width: 480px) {
+}*/
+
+
+/*------------ Failed Media Queries for a symmetric 3 box section ------------*/
+
+/*.education .col-md-4 {
+		max-width: 266px;
+}
+
+
+.education .col-sm-4 {
+		max-width: 200px;
+}
+*/
+
+/*
 @media only screen and (min-width: 992px) {
 	.education .col-md-4 {
 		min-height: 300px;
@@ -101,7 +144,11 @@ body {
 @media only screen and (max-width: 768px) {
 	body {margin-bottom: 400px;}
 	.footer {height: 400px;}
+	.education .col-md-4 {
+	}
 }
+
+
 /*How to do the education section for small screens?
 @media only screen and (max-width: 768px) {
 	body {margin-bottom: 400px;}

@@ -51,6 +51,10 @@ body {
 	padding-top:20px;
 }
 
+.education li {
+	height: 250px;
+}
+
 .research {
 
 }
